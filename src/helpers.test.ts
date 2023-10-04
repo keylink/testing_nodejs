@@ -20,7 +20,7 @@ const mockResponse = [
   }
 ]
 
-const year = 2023;
+const year = new Date().getFullYear();
 const country = 'FR';
 const wrongCountry = 'KG';
 const wrongYear = 2022;
