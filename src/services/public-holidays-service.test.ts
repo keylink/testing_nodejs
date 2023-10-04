@@ -21,7 +21,7 @@ const mockResponse = [
   }
 ]
 
-const year = 2023;
+const year = new Date().getFullYear();
 const country = 'FR';
 
 describe('=== Public holidays service tests ===', () => {
